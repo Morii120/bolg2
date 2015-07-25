@@ -1,0 +1,197 @@
+@charset "utf-8";
+#header {border-radius:7px;  }
+
+@keyframes around{
+	0%{
+		left: 0;
+		opacity: 0;
+	}
+
+  25%{
+        left:0;
+         opacity:0;    
+  }
+  50%{
+	left:10px;
+	opacity:0.3; 
+  }
+  75%{
+  	left: 30;
+  	opacity: 0.6;
+  }
+                                                          /*网站头部的动画的调用*/
+  
+  100%{ 
+  	left:35px;
+    opacity:1;
+  }
+ }
+@keyframes aroundb{
+	0%{
+		opacity: 0;
+	left: 0;
+}
+
+  55%{
+     opacity:0;
+     left: 0;
+  }
+  100%{
+    opacity:1;
+    left:35px;
+  }
+ 
+}
+@keyframes aroundc{
+	0%{
+		opacity: 0;
+		left: 0;
+	}
+  70%{
+     opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+ 
+}
+
+#header .explain > p:nth-child(1){ display: inline-block;
+								 
+								   position:relative; 								
+  							animation:around 3s linear -0.1s 1 ;
+
+  							/*这个是动画简写 第一个参数是动画的名字，
+  							 第二个是动画持续的时间，第三个是动画用那种弯线，
+  							 第四个是动画延迟多少时间执行， 
+  							 第五个是动画执行多少次*/
+
+  							-webkit-animation:around 3s linear -0.1s 1 ; 
+
+							-moz-animation:around 3s linear -0.1s 1 ;
+
+							-o-animation:around 3s linear -0.1s 1 ;
+
+							-ms-animation:around 3s linear -0.1s 1 ;
+								}
+
+#header .explain > p:nth-child(2){ 
+								   position:relative; 								
+  							animation:aroundb 6s linear -0.1s 1 ;
+
+  							-webkit-animation:aroundb 6s linear -0.1s 1 ;                            /*网站头部的动画的设置*/
+
+							-moz-animation:aroundb 6s linear -0.1s 1 ;
+
+							-o-animation:aroundb 6s linear -0.1s 1 ;
+
+							-ms-animation:aroundb 6s linear -0.1s 1 ;
+								}
+#header .explain > p:nth-child(3){ 
+								   position:relative; 								
+  							animation:aroundc 9s linear -0.1s 1 ;
+
+  							-webkit-animation:aroundc 9s linear -0.1s 1 ; 
+
+							-moz-animation:aroundc 9s linear -0.1s 1 ;
+
+							-o-animation:aroundc 9s linear -0.1s 1 ;
+
+							-ms-animation:aroundc 9s linear -0.1s 1 ;
+								}
+
+
+
+
+ 
+#nav, #nav li {border-radius:5px;}        /**/
+
+
+
+
+
+
+#content #personage {border-radius:5px;  box-shadow:2px 2px 5px 1px #4b5153; }  
+
+#content .blog li:hover {box-shadow:1px 1px 10px 1px #999, -1px -1px 10px 1px #999}
+
+
+
+#content .main .web,#content .main .seo ,#content .main .article_list .btn {border-radius: 5px}
+
+#content .main .web h2 ,#content .main .seo h2 {border-radius:4px; box-shadow:1px 1px 10px 2px #b2acb2, -1px -1px 10px 2px #b2acb2  }
+
+#content .sideBar .button li{border-radius:5px; }
+
+
+
+
+
+#content .main .web li,#content .main .seo li  {
+                                                  -moz-transition:ease-out 0.3s;
+                                                  -o-transition:ease-out 0.3s;
+                                                  -webkit-transition:ease-out 0.3s;
+                                                  -ms-transition:ease-out 0.3s;
+                                                  transition:ease-out 0.3s;
+                                              }
+
+
+
+
+
+
+
+#content .sideBar .button a  {-moz-transition: all 0.3s;
+                              -o-transition: all 0.3s;
+                              -webkit-transition: all 0.3s;
+                              -ms-transition: all 0.3s;
+                              transition: all 0.3s;
+                              }
+
+
+
+#content .sideBar .button a:hover {
+                                    transform:rotate(360deg);
+                                    -ms-transform:rotate(360deg);
+                                    -moz-transform:rotate(360deg) ;
+                                    -o-transform:rotate(360deg) ;
+                                    -webkit-transform:rotate(360deg) ;                           
+                                    }
+
+
+
+#content .sideBar .contact {border-radius:3px;}
+
+
+
+#content .sideBar .comment,#content .sideBar .versions,#footer {border-radius: 5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
